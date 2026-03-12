@@ -18,9 +18,6 @@ from collections import Counter
 # 문자열 모듈에서 특수문자를 처리를 돕는 메소드를 불러옵니다. 
 from string import punctuation
 
-# 엘리스에서 파일 송출에 필요한 패키지를 불러옵니다. 
-from elice_utils import EliceUtils
-
 
 # 데이터 전처리를 실행합니다. 
 def preprocess_text(text):
